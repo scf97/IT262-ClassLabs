@@ -15,7 +15,7 @@ from google.colab import drive
 
 # read the data
 
-myData = pd.read_csv('/content/drive/MyDrive/IT262 - IT Project Management/BDU.csv')
+myData = pd.read_csv('/content/drive/MyDrive/IT262 - IT Project Management/StephenP_BurndownBurnup/BDU.csv')
 
 myData.shape
 myData.head(2)
@@ -43,7 +43,7 @@ ax3.legend(h1+h3, l1+l3, loc=2)
 
 h2, l2 = ax2.get_legend_handles_labels()
 h4, l4 = ax4.get_legend_handles_labels()
-ax4.legend(h1+h3, l1+l3, loc=2)
+ax4.legend(h2+h3, l2+l4, loc=2)
 
 
 plt.show()
